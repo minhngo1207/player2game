@@ -347,9 +347,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ed212c9033260d40bc434bc0313f3c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlayer1: 0
   speed: 10
   rb: {fileID: 633880096}
+  axisName: Vertical1
 --- !u!61 &633880093
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1099,9 +1099,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ed212c9033260d40bc434bc0313f3c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlayer1: 1
   speed: 10
   rb: {fileID: 2056174203}
+  axisName: Vertical
 --- !u!50 &2056174203
 Rigidbody2D:
   serializedVersion: 4
